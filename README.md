@@ -24,9 +24,9 @@
 ```sh
 curl --location 'https://ppcom-server.vercel.app/api/topup' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzA5MzAxNTMyfQ.RHQ4AC64TdIasf3gQjDcolNqxof4F2u0nvUYNE_Z_Nw' \
+--header 'Authorization: Bearer [apikey]' \
 --data '{
-    "code": "https://gift.truemoney.com/campaign/?v=eab53f0f7ea54bf287cca2b28829635a578"
+    "code": "[angpao url]"
 }'
 ```
 
