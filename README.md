@@ -21,7 +21,7 @@
 
 
 ### ขั้นตอนที่ 3  ขอ API ไปที่ server
-```curl
+```sh
 curl --location 'https://ppcom-server.vercel.app/api/topup' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzA5MzAxNTMyfQ.RHQ4AC64TdIasf3gQjDcolNqxof4F2u0nvUYNE_Z_Nw' \
