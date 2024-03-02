@@ -6,8 +6,6 @@
 1. สมัครสมาชิกที่ Website
 2. เข้าสู่ระบบ รับค่า APIKEY
 3. ขอ API ไปที่ server
-4. ทำรายการสำเร็จ
-
 
 ### ขั้นตอนที่ 1 สมัครสมาชิกที่ Website
 * เข้าไปที่ Website [PPCOM](https://ppcom.vercel.app)
@@ -24,10 +22,11 @@
 ```sh
 curl --location 'https://ppcom-server.vercel.app/api/topup' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Bearer [apikey]' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzA5MzAxNTMyfQ.RHQ4AC64TdIasf3gQjDcolNqxof4F2u0nvUYNE_Z_Nw' \
 --data '{
-    "code": "[angpao url]"
+    "code": "https://gift.truemoney.com/campaign/?v=eab53f0f7ea54bf287cca2b28829635a578"
 }'
 ```
 
-### 
+#### ข้อมูลค่าที่สมารถตอบกลับ
+![response](https://github.com/Phongphat-ohm/ppcom-docs/blob/main/code_20240302_222242_via_10015_io.png?raw=true)
